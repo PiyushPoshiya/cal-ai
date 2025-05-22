@@ -437,7 +437,6 @@
 		A6EB9A732C0BF5440069C911 /* DMSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Bold.ttf"; sourceTree = "<group>"; };
 		A6EB9A742C0BF5440069C911 /* DMSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Medium.ttf"; sourceTree = "<group>"; };
 		A6EB9A752C0BF5440069C911 /* DMSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Regular.ttf"; sourceTree = "<group>"; };
-		A6F2037F2C533914004E0156 /* Welling copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Welling copy-Info.plist"; path = "/Users/irwin/dev/welling/ios/Welling/Welling copy-Info.plist"; sourceTree = "<absolute>"; };
 		A6F203822C533BAE004E0156 /* BuildEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -712,7 +711,6 @@
 				A659D5472BEEDFBE00C3D223 /* WellingUITests */,
 				A659D5292BEEDFBC00C3D223 /* Products */,
 				A6E718FD2C47171600EEDC9D /* Frameworks */,
-				A6F2037F2C533914004E0156 /* Welling copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1723,7 +1721,7 @@
 				);
 				MARKETING_VERSION = 1.5;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.welling.Welling;
+				PRODUCT_BUNDLE_IDENTIFIER = com.welling.Wellingtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -1764,7 +1762,7 @@
 				);
 				MARKETING_VERSION = 1.5;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.welling.Welling;
+				PRODUCT_BUNDLE_IDENTIFIER = com.welling.Wellingtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
