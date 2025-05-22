@@ -1,0 +1,86 @@
+{
+  "isRespondingToSurvey": false,
+  "timezone": "Asia/Bangkok",
+  "profile": {
+    "startingWeight": 66,
+    "remindersAndNotifications": true,
+    "gender": "male",
+    "foodAllergies": [
+      "None"
+    ],
+    "preferredUnits": "metric",
+    "dietaryPreference": "Balanced diet",
+    "foodsToAvoid": null,
+    "usedCalorieCountingAppBefore": "Yes",
+    "targetFatPercentOverride": null,
+    "exerciseLevel": null,
+    "dietaryRestrictions": null,
+    "userPreferences": null,
+    "intolerances": [
+      "Neither"
+    ],
+    "targetProtein": 141,
+    "targetProteinPercentOverride": null,
+    "mainReasonToBecomeHealthier": "Improve physical appearance",
+    "whichCommunityDidYouHearAboutFrom": null,
+    "email": null,
+    "activityLevel": "Sitting most of the time (e.g. office job)",
+    "pregnant": false,
+    "height": 173,
+    "calorieOverride": null,
+    "targetProteins": null,
+    "currentWeight": 66,
+    "goal": "keep fit",
+    "followDietChallenges": null,
+    "targetWeight": null,
+    "targetFat": 52,
+    "importantEventComingUp": "Vacation",
+    "addBurnedCaloriesToDailyTotal": false,
+    "whatIsValuableToUser": null,
+    "targetCarbsPercentOverride": null,
+    "name": "irwin",
+    "targetCarbs": 212,
+    "usedNutritionCoachBefore": "Yes, but only for consultation",
+    "otherConsiderations": null,
+    "eatingDisorder": false,
+    "whyNeedCoach": null,
+    "howDidYouHearAboutWelling": "Google",
+    "age": 35,
+    "targetCalories": 1886
+  },
+  "subscriptionState": null,
+  "messagesToCheckForSurvey": 5,
+  "notificationSettings": {
+    "endOfDayCheckIn": true,
+    "educationalContent": true,
+    "lunchFoodLogReminder": true,
+    "logWeightReminder": false,
+    "allNotifications": true,
+    "consistentLoggingReward": true,
+    "dailyMorningCheckIn": true,
+    "whatsAppMarketing": true
+  },
+  "dateUpdated": "2024-05-30T12:08:42.963Z",
+  "nanoId": "l8sCL11B",
+  "geo": {
+    "country": "Algeria",
+    "version": 1
+  },
+  "uid": "dooiH0QlyLguPuOcdM4m6TOROOF3",
+  "dateCreated": "2024-05-30T12:07:25.802Z",
+  "surveyRespondingToName": null,
+  "id": "71213a1f-1667-4095-9a4b-a8afe0d45f94",
+  "onboardingState": {
+    "version": 1,
+    "tellUserAboutVuildNumber": false,
+    "dashboard": {
+      "version": 1,
+      "shownCustomFoodTooltip": false
+    }
+  },
+  "_version": 1,
+  "skipSubscriptionCheck": true,
+  "coachingState": 1,
+  "state": 1,
+  "favorites": []
+}

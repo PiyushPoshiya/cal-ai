@@ -1,0 +1,738 @@
+[
+  {
+    "id": "86fa5a2f-48cc-459f-8f35-7d42facc736c",
+    "_version": 1,
+    "state": "reply",
+    "messageType": "other",
+    "fromSystem": true,
+    "replyingToMessageId": "0FD6B2BD-02EB-4262-B10E-06160FF41F69",
+    "text": "Great, bananas are a nutritious snack that provides a good source of dietary fiber, vitamin C, potassium, and vitamin B6. They can also give you a quick energy boost due to their natural sugars. If you have any questions about your diet or need further assistance, feel free to ask!",
+    "replies": [],
+    "timestamp": "2024-06-02T08:16:52.236Z"
+  },
+  {
+    "id": "2",
+    "_version": 1,
+    "state": "completed",
+    "messageType": "weightLogged",
+    "classification": "weight_log",
+    "fromSystem": false,
+    "replyingToMessageId": "0FD6B2BD-02EB-4262-B10E-06160FF41F69",
+    "text": "60kg",
+    "replies": [],
+    "timestamp": "2024-06-02T08:16:52.236Z",
+    "weightLog": {
+        "_version": 1,
+        "weightInKg": 60,
+        "id": "2",
+        "timestamp":"2024-06-02T08:16:52.236Z"
+    }
+  },
+  {
+    "id": "3",
+    "_version": 1,
+    "state": "completed",
+    "messageType": "activityLogged",
+    "classification": "activity",
+    "fromSystem": false,
+    "replyingToMessageId": "0FD6B2BD-02EB-4262-B10E-06160FF41F69",
+    "text": "60kg",
+    "replies": [],
+    "timestamp": "2024-06-02T08:16:52.236Z",
+    "activityLog": {
+        "_version": 1,
+        "id": "3",
+        "name": "Weight lifting",
+        "amount": "30 minutes",
+        "mets": 10,
+        "userDescription": "weight lifting for 30 minutes",
+        "caloriesExpended": 666,
+        "dateUpdated":"2024-06-02T08:16:52.236Z",
+        "timestamp":"2024-06-02T08:16:52.236Z"
+    }
+  },
+  {
+    "messageType": "other",
+    "id": "CFF3311D-22B4-41B4-8B4D-FE224BDFB1C6",
+    "text": "Ok",
+    "_version": 0,
+    "fromSystem": false,
+    "timestamp": "2024-06-02T08:23:02.722Z",
+    "classification": "other",
+    "replies": [
+      {
+        "id": "f073b0da-efb9-486c-b1f8-1bf7d86d7841",
+        "_version": 1,
+        "state": "reply",
+        "messageType": "other",
+        "fromSystem": true,
+        "replyingToMessageId": "CFF3311D-22B4-41B4-8B4D-FE224BDFB1C6",
+        "text": "Alright! If you have any more questions or need assistance with anything else, feel free to reach out. Have a great day!",
+        "replies": [],
+        "timestamp": "2024-06-02T08:23:06.093Z"
+      }
+    ],
+    "state": "completed"
+  },
+  {
+    "replies": [],
+    "messageType": "foodLogged",
+    "foodLog": {
+      "userDescription": "a coke",
+      "foods": [
+        {
+          "amount": 355,
+          "unit": "g",
+          "deleted": false,
+          "carbs": 35.5,
+          "foodAmount": {
+            "portionSizeName": "Serving",
+            "amount": 355,
+            "unit": "g",
+            "portionSizeAmount": 1,
+            "portionSizeAmountString": null,
+            "originalFoodId": "24af0289-915e-4662-8eb4-c37b672fc23f",
+            "food": {
+              "carbs": 10,
+              "officialFoodId": 4011505,
+              "source": "openfoodfacts",
+              "modifiers": [],
+              "dateCreated": "2023-12-14T07:49:08.516Z",
+              "servingSizeUnit": "ml",
+              "protein": 0,
+              "fat": 0,
+              "id": "24af0289-915e-4662-8eb4-c37b672fc23f",
+              "nutrimentSize": 100,
+              "servingSizeName": "Serving",
+              "brand": "Coca-Cola",
+              "servingSize": 355,
+              "servingSizeAmount": 1,
+              "verified": false,
+              "calories": 38,
+              "version": 2,
+              "servingSizes": [
+                {
+                  "amount": 1,
+                  "unit": "ml",
+                  "size": 355,
+                  "name": "Serving"
+                },
+                {
+                  "amount": 1,
+                  "unit": "ml",
+                  "size": 355,
+                  "generated": true,
+                  "name": "can"
+                },
+                {
+                  "amount": 1,
+                  "unit": "ml",
+                  "size": 240,
+                  "generated": true,
+                  "name": "glass"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 240,
+                  "generated": true,
+                  "name": "cup"
+                }
+              ],
+              "explicitMacros": false,
+              "generatedByUserId": "8a8f1b85-c028-4255-bf4d-d6c2274d2370",
+              "name": "Coke",
+              "hiddenFromSearch": false,
+              "isCustom": false,
+              "nutrimentSizeUnit": "g",
+              "officialFood": {
+                "sourceId": "5449000043382",
+                "servingSizeAmount": 1,
+                "carbs": 0,
+                "transFat": 0,
+                "calories": 0,
+                "source": "openfoodfacts",
+                "dateUpdated": "2024-03-28T00:07:51.082Z",
+                "servingSizes": [
+                  {
+                    "unit": "ml",
+                    "amount": 1,
+                    "size": 355,
+                    "name": "Serving"
+                  },
+                  {
+                    "unit": "ml",
+                    "amount": 1,
+                    "size": 355,
+                    "generated": true,
+                    "name": "can"
+                  },
+                  {
+                    "unit": "ml",
+                    "amount": 1,
+                    "size": 240,
+                    "generated": true,
+                    "name": "glass"
+                  },
+                  {
+                    "unit": "g",
+                    "amount": 1,
+                    "size": 240,
+                    "generated": true,
+                    "name": "cup"
+                  }
+                ],
+                "saturatedFat": 0,
+                "dateCreated": "2023-11-28T22:52:01.070Z",
+                "dietaryFiber": 0,
+                "servingSizeUnit": "ml",
+                "protein": 0,
+                "name": "Coke",
+                "fat": 0,
+                "id": 4011505,
+                "nutrimentSize": 100,
+                "servingSizeName": "Serving",
+                "brand": "Coca-Cola",
+                "servingSize": 355,
+                "nutrimentSizeUnit": "g",
+                "sugar": 0
+              }
+            }
+          },
+          "protein": 0,
+          "fat": 0,
+          "name": "Coke",
+          "guardrailTriggered": false,
+          "id": "00000000-0000-0000-0000-000000000000",
+          "calories": 135,
+          "brand": "Coca-Cola"
+        }
+      ],
+      "carbs": 35.5,
+      "protein": 0,
+      "fat": 0,
+      "id": "8A799697-94BF-4300-BC95-B8F8B865EDB0",
+      "calories": 135,
+      "_version": 0,
+      "timestamp": "2024-06-02T08:37:02.955Z",
+      "dateUpdated": "2024-06-02T08:37:02.955Z"
+    },
+    "id": "8A799697-94BF-4300-BC95-B8F8B865EDB0",
+    "text": "  I drank a coke",
+    "classification": "food_eaten",
+    "state": "completed",
+    "_version": 0,
+    "fromSystem": false,
+    "timestamp": "2024-06-02T08:36:58.579Z"
+  },
+  {
+    "replies": [],
+    "messageType": "foodLogged",
+    "foodLog": {
+      "userDescription": "I ate a banana",
+      "foods": [
+        {
+          "amount": 118,
+          "unit": "g",
+          "deleted": false,
+          "carbs": 26.9,
+          "foodAmount": {
+            "portionSizeName": "Medium",
+            "amount": 118,
+            "unit": "g",
+            "portionSizeAmount": 1,
+            "portionSizeAmountString": null,
+            "originalFoodId": "20c241dc-ca86-42e1-a958-67f476848f78",
+            "food": {
+              "carbs": 22.8,
+              "officialFoodId": null,
+              "source": "Updated In Retool",
+              "modifiers": [],
+              "dateCreated": "2023-12-12T01:41:35.380Z",
+              "servingSizeUnit": "G",
+              "protein": 1.09,
+              "fat": 0.33,
+              "id": "20c241dc-ca86-42e1-a958-67f476848f78",
+              "nutrimentSize": 100,
+              "servingSizeName": "Medium",
+              "brand": "Generic",
+              "servingSize": 118,
+              "servingSizeAmount": 1,
+              "verified": true,
+              "calories": 89,
+              "version": 2,
+              "servingSizes": [
+                {
+                  "unit": "g",
+                  "amount": 1,
+                  "size": 150,
+                  "name": "cup, sliced"
+                },
+                {
+                  "unit": "g",
+                  "amount": 1,
+                  "size": 81,
+                  "name": "extra small"
+                },
+                {
+                  "unit": "g",
+                  "amount": 1,
+                  "size": 101,
+                  "name": "small"
+                },
+                {
+                  "unit": "g",
+                  "amount": 1,
+                  "size": 118,
+                  "name": "medium"
+                },
+                {
+                  "unit": "g",
+                  "amount": 1,
+                  "size": 136,
+                  "name": "large"
+                },
+                {
+                  "unit": "g",
+                  "amount": 1,
+                  "size": 152,
+                  "name": "extra large"
+                },
+                {
+                  "unit": "g",
+                  "amount": 1,
+                  "size": 118,
+                  "generated": true,
+                  "name": "banana"
+                },
+                {
+                  "unit": "g",
+                  "amount": 1,
+                  "size": 13.5,
+                  "generated": true,
+                  "name": "spoon"
+                },
+                {
+                  "unit": "g",
+                  "amount": 1,
+                  "size": 13.5,
+                  "generated": true,
+                  "name": "piece"
+                },
+                {
+                  "unit": "g",
+                  "amount": 1,
+                  "size": 118,
+                  "generated": true,
+                  "name": "medium banana"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 13.5,
+                  "generated": true,
+                  "name": "slice"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 118,
+                  "generated": true,
+                  "name": "whole"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 59,
+                  "generated": true,
+                  "name": "half"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 2.7,
+                  "generated": true,
+                  "name": "tsp"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 150,
+                  "generated": true,
+                  "name": "cup"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 118,
+                  "generated": true,
+                  "name": "1 banana"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 118,
+                  "generated": true,
+                  "name": "adet"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 118,
+                  "generated": true,
+                  "name": "ortaboy"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 118,
+                  "generated": true,
+                  "name": "muzlu"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 118,
+                  "generated": true,
+                  "name": "muz"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 59,
+                  "generated": true,
+                  "name": "1 half"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 118,
+                  "generated": true,
+                  "name": "1 muz"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 50.5,
+                  "generated": true,
+                  "name": "küçük"
+                }
+              ],
+              "explicitMacros": false,
+              "generatedByUserId": "debabfb4-b1f4-4114-9727-485016a54056",
+              "name": "Banana",
+              "hiddenFromSearch": false,
+              "isCustom": false,
+              "nutrimentSizeUnit": "g",
+              "officialFood": null
+            }
+          },
+          "protein": 1.3,
+          "fat": 0.4,
+          "name": "Banana",
+          "guardrailTriggered": false,
+          "id": "00000000-0000-0000-0000-000000000000",
+          "calories": 105,
+          "brand": "Generic"
+        }
+      ],
+      "carbs": 26.9,
+      "protein": 1.3,
+      "fat": 0.4,
+      "id": "B0279A01-5C7A-4B91-B5E1-E9AF37D2B405",
+      "calories": 105,
+      "_version": 0,
+      "timestamp": "2024-06-02T08:44:46.589Z",
+      "dateUpdated": "2024-06-02T08:44:46.589Z"
+    },
+    "id": "B0279A01-5C7A-4B91-B5E1-E9AF37D2B405",
+    "text": "I ate a banana",
+    "state": "completed",
+    "_version": 0,
+    "fromSystem": false,
+    "timestamp": "2024-06-02T08:44:42.351Z"
+  },
+  {
+    "replies": [],
+    "messageType": "foodLogged",
+    "foodLog": {
+      "userDescription": "I ate a banana",
+      "foods": [
+        {
+          "amount": 118,
+          "unit": "g",
+          "deleted": false,
+          "carbs": 26.9,
+          "foodAmount": {
+            "portionSizeName": "Medium",
+            "amount": 118,
+            "unit": "g",
+            "portionSizeAmount": 1,
+            "portionSizeAmountString": null,
+            "originalFoodId": "20c241dc-ca86-42e1-a958-67f476848f78",
+            "food": {
+              "carbs": 22.8,
+              "officialFoodId": null,
+              "source": "Updated In Retool",
+              "modifiers": [],
+              "dateCreated": "2023-12-12T01:41:35.380Z",
+              "servingSizeUnit": "G",
+              "protein": 1.09,
+              "fat": 0.33,
+              "id": "20c241dc-ca86-42e1-a958-67f476848f78",
+              "nutrimentSize": 100,
+              "servingSizeName": "Medium",
+              "brand": "Generic",
+              "servingSize": 118,
+              "servingSizeAmount": 1,
+              "verified": true,
+              "calories": 89,
+              "version": 2,
+              "servingSizes": [
+                {
+                  "unit": "g",
+                  "amount": 1,
+                  "size": 150,
+                  "name": "cup, sliced"
+                },
+                {
+                  "unit": "g",
+                  "amount": 1,
+                  "size": 81,
+                  "name": "extra small"
+                },
+                {
+                  "unit": "g",
+                  "amount": 1,
+                  "size": 101,
+                  "name": "small"
+                },
+                {
+                  "unit": "g",
+                  "amount": 1,
+                  "size": 118,
+                  "name": "medium"
+                },
+                {
+                  "unit": "g",
+                  "amount": 1,
+                  "size": 136,
+                  "name": "large"
+                },
+                {
+                  "unit": "g",
+                  "amount": 1,
+                  "size": 152,
+                  "name": "extra large"
+                },
+                {
+                  "unit": "g",
+                  "amount": 1,
+                  "size": 118,
+                  "generated": true,
+                  "name": "banana"
+                },
+                {
+                  "unit": "g",
+                  "amount": 1,
+                  "size": 13.5,
+                  "generated": true,
+                  "name": "spoon"
+                },
+                {
+                  "unit": "g",
+                  "amount": 1,
+                  "size": 13.5,
+                  "generated": true,
+                  "name": "piece"
+                },
+                {
+                  "unit": "g",
+                  "amount": 1,
+                  "size": 118,
+                  "generated": true,
+                  "name": "medium banana"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 13.5,
+                  "generated": true,
+                  "name": "slice"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 118,
+                  "generated": true,
+                  "name": "whole"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 59,
+                  "generated": true,
+                  "name": "half"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 2.7,
+                  "generated": true,
+                  "name": "tsp"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 150,
+                  "generated": true,
+                  "name": "cup"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 118,
+                  "generated": true,
+                  "name": "1 banana"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 118,
+                  "generated": true,
+                  "name": "adet"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 118,
+                  "generated": true,
+                  "name": "ortaboy"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 118,
+                  "generated": true,
+                  "name": "muzlu"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 118,
+                  "generated": true,
+                  "name": "muz"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 59,
+                  "generated": true,
+                  "name": "1 half"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 118,
+                  "generated": true,
+                  "name": "1 muz"
+                },
+                {
+                  "amount": 1,
+                  "unit": "g",
+                  "size": 50.5,
+                  "generated": true,
+                  "name": "küçük"
+                }
+              ],
+              "explicitMacros": false,
+              "generatedByUserId": "debabfb4-b1f4-4114-9727-485016a54056",
+              "name": "Banana",
+              "hiddenFromSearch": false,
+              "isCustom": false,
+              "nutrimentSizeUnit": "g",
+              "officialFood": null
+            }
+          },
+          "protein": 1.3,
+          "fat": 0.4,
+          "name": "Banana",
+          "guardrailTriggered": false,
+          "id": "00000000-0000-0000-0000-000000000000",
+          "calories": 105,
+          "brand": "Generic"
+        }
+      ],
+      "carbs": 26.9,
+      "protein": 1.3,
+      "fat": 0.4,
+      "id": "2ADD95A0-2D94-4CBA-8EA9-E164F73E7DBA",
+      "calories": 105,
+      "_version": 0,
+      "timestamp": "2024-06-03T00:38:13.102Z",
+      "dateUpdated": "2024-06-03T00:38:13.102Z"
+    },
+    "id": "2ADD95A0-2D94-4CBA-8EA9-E164F73E7DBA",
+    "text": "I ate a banana",
+    "state": "completed",
+    "_version": 0,
+    "fromSystem": false,
+    "timestamp": "2024-06-03T00:38:08.537Z"
+  },
+  {
+    "messageType": "other",
+    "id": "DF6FB252-F6B0-45DC-9205-38B65A70A1B0",
+    "text": "Hi",
+    "_version": 0,
+    "fromSystem": false,
+    "timestamp": "2024-06-03T00:57:16.209Z",
+    "classification": "other",
+    "replies": [
+      {
+        "id": "2b118b6f-6bc7-4676-b730-522a519858a3",
+        "_version": 1,
+        "state": "reply",
+        "messageType": "other",
+        "fromSystem": true,
+        "replyingToMessageId": "DF6FB252-F6B0-45DC-9205-38B65A70A1B0",
+        "text": "Hello! It looks like you've mentioned eating a banana and drinking a Coke. If you have any questions or topics you'd like to discuss, feel free to let me know. I'm here to help!",
+        "replies": [],
+        "timestamp": "2024-06-03T00:57:30.084Z"
+      }
+    ],
+    "state": "completed"
+  },
+  {
+    "messageType": "other",
+    "id": "77CBCF72-87B0-46DE-8147-D166B63947A2",
+    "text": "Ok",
+    "_version": 0,
+    "fromSystem": false,
+    "timestamp": "2024-06-03T00:57:48.259Z",
+    "classification": "other",
+    "replies": [
+      {
+        "id": "06e293c2-af77-455b-bceb-95630e6a3bdf",
+        "_version": 1,
+        "state": "reply",
+        "messageType": "other",
+        "fromSystem": true,
+        "replyingToMessageId": "77CBCF72-87B0-46DE-8147-D166B63947A2",
+        "text": "Great! If you have any questions or need assistance with something, just let me know. Enjoy your day!",
+        "replies": [],
+        "timestamp": "2024-06-03T00:58:19.419Z"
+      }
+    ],
+    "state": "completed"
+  },
+  {
+    "replies": [],
+    "messageType": "other",
+    "id": "A1C7F931-35AF-4E16-9691-6EC049980244",
+    "text": "Thanks",
+    "_version": 0,
+    "fromSystem": false,
+    "timestamp": "2024-06-03T01:00:21.796Z",
+    "state": "processing"
+  }
+]

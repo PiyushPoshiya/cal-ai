@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      harset="UTF-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 maximum-scale=1.0 minimum-scale=1.0 user-scalable=no"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        background-color: #fffdfb;
+      }
+      #form {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    <script>
+      function onReady({ formId }) {
+        console.log("Form ready:", formId);
+
+        window.webkit.messageHandlers.onReady.postMessage(true);
+      }
+
+      function onStarted({ formId, responseId }) {
+        console.log("Form started:", formId, responseId);
+
+        window.webkit.messageHandlers.onStarted.postMessage(true);
+      }
+
+      function onSubmit({ formId, responseId }) {
+        console.log("Form submitted:", formId, responseId);
+
+        window.webkit.messageHandlers.onSubmit.postMessage(true);
+      }
+
+      function onClose({ formId }) {
+        console.log("Form closed:", formId);
+
+        window.webkit.messageHandlers.onClose.postMessage(true);
+      }
+
+      function onQuestionChanged({ formId, ref }) {
+        console.log("Question changed:", formId, ref);
+
+        window.webkit.messageHandlers.onQuestionChanged.postMessage(ref);
+      }
+
+      function onHeightChanged({ formId, ref, height }) {
+        console.log("Height changed:", formId, ref, height);
+
+        // window.webkit.messageHandlers.onHeightChanged.postMessage();
+      }
+
+      function onEndingButtonClick({ formId, ref }) {
+        console.log("Ending button clicked:", formId);
+        console.log("Ending button ref:", ref);
+
+        window.webkit.messageHandlers.onEndingButtonClick.postMessage(true);
+      }
+    </script>
+  </head>
+
+  <body class="hidden">
+    <div
+      id="form"
+      data-tf-widget="<form-id>"
+      data-tf-hidden="<nano-id>"
+      data-tf-tracking="<tracking>"
+      data-tf-on-ready="onReady"
+      data-tf-on-started="onStarted"
+      data-tf-on-submit="onSubmit"
+      data-tf-on-close="onClose"
+      data-tf-on-question-changed="onQuestionChanged"
+      data-tf-on-height-changed="onHeightChanged"
+      data-tf-on-ending-button-click="onEndingButtonClick"
+      data-tf-inline-on-mobile="true"
+    >
+    </div>
+    <script src="https://embed.typeform.com/next/embed.js"></script>
+  </body>
+</html>
